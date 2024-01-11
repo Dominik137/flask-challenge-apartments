@@ -12,10 +12,10 @@ with app.app_context():
     
 
     apartments = []
-    apartments.append(Apartment(number = 12))
-    apartments.append(Apartment(number = 14))
-    apartments.append(Apartment(number = 1))
-    apartments.append(Apartment(number = 2))
+    apartments.append(Apartment(apt_number = 12))
+    apartments.append(Apartment(apt_number = 14))
+    apartments.append(Apartment(apt_number = 1))
+    apartments.append(Apartment(apt_number = 2))
     db.session.add_all(apartments)
 
     tenants = []
